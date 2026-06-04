@@ -32,7 +32,23 @@ function MHit()
 				if not hitModels[model] then
 					hitModels[model] = true
 
+local SoundIds = {
+    "rbxassetid://136418574994417",
+    "rbxassetid://129341770100186",
+    "rbxassetid://137243377137274"
+}
 
+function PlayRandomSound(parent)
+    local sound = Instance.new("Sound")
+    sound.Parent = parent
+    sound.SoundId = SoundIds[math.random(#SoundIds)]
+    sound.Volume = 3
+    sound:Play()
+
+    sound.Ended:Once(function()
+        sound:Destroy()
+    end)
+end
 					local rA = hrp
 
 					local effectPart = Instance.new("Part")
