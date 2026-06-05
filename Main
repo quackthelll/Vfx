@@ -879,7 +879,7 @@ function MHitIns()
                         particle.ShapeStyle = Enum.ParticleEmitterShapeStyle.Volume
                 particle.FlipbookFramerate = NumberRange.new(4, 4)
                 particle.LightInfluence = 0
-                particle.Lifetime = NumberRange.new(0.5,0.5)
+                particle.Lifetime = NumberRange.new(0.2,0.2)
                 particle.FlipbookLayout = Enum.ParticleFlipbookLayout.None
 
                 particle.SpreadAngle = Vector2.new(25.000000, 180.000000)
@@ -919,7 +919,7 @@ function MHitIns()
                         particle.ShapeStyle = Enum.ParticleEmitterShapeStyle.Volume
                 particle.FlipbookFramerate = NumberRange.new(4, 4)
                 particle.LightInfluence = 0
-                particle.Lifetime = NumberRange.new(0.5,0.5)
+                particle.Lifetime = NumberRange.new(0.2,0.2)
                 particle.FlipbookLayout = Enum.ParticleFlipbookLayout.None
 
                 particle.SpreadAngle = Vector2.new(25.000000, 180.000000)
@@ -999,7 +999,7 @@ function MHitIns()
                         particle.ShapeStyle = Enum.ParticleEmitterShapeStyle.Volume
                 particle.FlipbookFramerate = NumberRange.new(4, 4)
                 particle.LightInfluence = 0
-                particle.Lifetime = NumberRange.new(0.45,0.45)
+                particle.Lifetime = NumberRange.new(0.1,0.15)
                 particle.FlipbookLayout = Enum.ParticleFlipbookLayout.None
 
                 particle.SpreadAngle = Vector2.new(25.000000, 180.000000)
