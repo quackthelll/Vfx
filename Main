@@ -189,7 +189,7 @@ function MHit()
                 particle.Squash = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 0), NumberSequenceKeypoint.new(1.000000, 0)})
                 particle.Speed = NumberRange.new(0.01,0.01)
                 particle.Brightness = 10
-                particle.Size = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 1), NumberSequenceKeypoint.new(0.135140, 5.5), NumberSequenceKeypoint.new(0.800000, 16.5), NumberSequenceKeypoint.new(1.000000, 0)})
+                particle.Size = NumberSequence.new({NumberSequenceKeypoint.new(0.000000, 1), NumberSequenceKeypoint.new(0.135140, 3), NumberSequenceKeypoint.new(0.800000, 16.5), NumberSequenceKeypoint.new(1.000000, 0)})
                 particle.Enabled = false
                 particle.Acceleration = Vector3.new(0.000000, 0.000000, 0.000000)
                 particle.RotSpeed = NumberRange.new(-400.000000, 400.000000)
