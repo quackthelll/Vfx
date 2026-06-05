@@ -6,11 +6,11 @@ function MHit()
 
 	local ball = Instance.new("Part")
 	ball.Parent = workspace
-	ball.Size = Vector3.new(9,9,9)
+	ball.Size = Vector3.new(8,4,8)
 	ball.Anchored = true
 	ball.CanCollide = false
 	ball.Transparency = 1
-	ball.CFrame = character.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+	ball.CFrame = character.HumanoidRootPart.CFrame * CFrame.new(0,0,-4)
 
 	local ballPos = ball.Position
 	local ballRadius = ball.Size.X / 2
